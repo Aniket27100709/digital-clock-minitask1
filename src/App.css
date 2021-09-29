@@ -1,38 +1,16 @@
 .App {
   text-align: center;
+  background-image: url('https://image.freepik.com/free-photo/abstract-luxury-soft-red-background-layout-design-studio-room-business-report-with-smooth-circle-gradient-color_1258-48274.jpg');
+  position: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500&family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-size: 200px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
